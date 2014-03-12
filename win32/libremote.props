@@ -3,7 +3,7 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup>
     <_PropertySheetDisplayName>Remote LIB</_PropertySheetDisplayName>
-    <IncludePath>$(SolutionDir)..\..\libremote;$(SolutionDir)..\..\libremote\src;$(SolutionDir)..\..\libremote\includes;$(IncludePath)</IncludePath>
+    <IncludePath>$(MSBuildThisFileDirectory)..;$(MSBuildThisFileDirectory)..\src;$(MSBuildThisFileDirectory)..\includes;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Label="UserMacros" />
   <ItemDefinitionGroup>

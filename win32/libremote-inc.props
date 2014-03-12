@@ -4,7 +4,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_PropertySheetDisplayName>Remote Library API</_PropertySheetDisplayName>
-    <IncludePath>$(SolutionDir)..\..\libremote\includes;$(IncludePath)</IncludePath>
+    <IncludePath>$(MSBuildThisFileDirectory)..\includes;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemGroup />
   <ItemDefinitionGroup>
